@@ -8,7 +8,7 @@ class TestQuaZipFileInfo : public QObject
     Q_OBJECT
 public:
     explicit TestQuaZipFileInfo(QObject *parent = 0);
-private slots:
+private Q_SLOTS:
     void getNTFSTime();
 };
 

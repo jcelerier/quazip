@@ -33,7 +33,7 @@ see quazip/(un)zip.h files for details. Basically it's the zlib license.
 
 class TestQuaZip: public QObject {
     Q_OBJECT
-private slots:
+private Q_SLOTS:
     void getFileList_data();
     void getFileList();
     void add_data();

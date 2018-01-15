@@ -29,7 +29,7 @@ see quazip/(un)zip.h files for details. Basically it's the zlib license.
 
 class TestJlCompress: public QObject {
     Q_OBJECT
-private slots:
+private Q_SLOTS:
     void compressFile_data();
     void compressFile();
     void compressFiles_data();
